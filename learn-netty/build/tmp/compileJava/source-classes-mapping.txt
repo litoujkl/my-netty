@@ -1,3 +1,5 @@
+com/shengsiyuan/thrift/ThriftServer.java
+ com.shengsiyuan.thrift.ThriftServer
 com/shengsiyuan/netty/secondexample/MyClientInitializer.java
  com.shengsiyuan.netty.secondexample.MyClientInitializer
 com/shengsiyuan/netty/thirdexample/MyChatServerInitializer.java
@@ -8,30 +10,133 @@ com/shengsiyuan/netty/thirdexample/MyChatClientInitializer.java
  com.shengsiyuan.netty.thirdexample.MyChatClientInitializer
 com/shengsiyuan/netty/thirdexample/MyChatClient.java
  com.shengsiyuan.netty.thirdexample.MyChatClient
-com/shengsiyuan/netty/thirdexample/MyChatClientHandler.java
- com.shengsiyuan.netty.thirdexample.MyChatClientHandler
-com/shengsiyuan/netty/secondexample/MyClient.java
- com.shengsiyuan.netty.secondexample.MyClient
-com/shengsiyuan/netty/fourthexample/MyServerInitializer.java
- com.shengsiyuan.netty.fourthexample.MyServerInitializer
 com/shengsiyuan/netty/firstexample/TestServer.java
  com.shengsiyuan.netty.firstexample.TestServer
-com/shengsiyuan/netty/secondexample/MyServer.java
- com.shengsiyuan.netty.secondexample.MyServer
 com/shengsiyuan/netty/fourthexample/MyServerHandler.java
  com.shengsiyuan.netty.fourthexample.MyServerHandler
  com.shengsiyuan.netty.fourthexample.MyServerHandler$1
+com/shengsiyuan/netty/sixthexample/TestClientHandler.java
+ com.shengsiyuan.netty.sixthexample.TestClientHandler
 com/shengsiyuan/netty/secondexample/MyClientHandler.java
  com.shengsiyuan.netty.secondexample.MyClientHandler
-com/shengsiyuan/netty/secondexample/MyServerHandler.java
- com.shengsiyuan.netty.secondexample.MyServerHandler
 com/shengsiyuan/netty/thirdexample/MyChatServerHandler.java
  com.shengsiyuan.netty.thirdexample.MyChatServerHandler
 com/shengsiyuan/netty/firstexample/TestServerInitializer.java
  com.shengsiyuan.netty.firstexample.TestServerInitializer
+com/shengsiyuan/netty/fifthexample/TextWebSocketFrameHandler.java
+ com.shengsiyuan.netty.fifthexample.TextWebSocketFrameHandler
 com/shengsiyuan/netty/thirdexample/MyChatServer.java
  com.shengsiyuan.netty.thirdexample.MyChatServer
-com/shengsiyuan/netty/firstexample/TestHttpServerHandler.java
- com.shengsiyuan.netty.firstexample.TestHttpServerHandler
+thrift/generated/PersonService.java
+ thrift.generated.PersonService
+ thrift.generated.PersonService$1
+ thrift.generated.PersonService$AsyncClient
+ thrift.generated.PersonService$AsyncClient$Factory
+ thrift.generated.PersonService$AsyncClient$getPersonByUsername_call
+ thrift.generated.PersonService$AsyncClient$savePerson_call
+ thrift.generated.PersonService$AsyncIface
+ thrift.generated.PersonService$AsyncProcessor
+ thrift.generated.PersonService$AsyncProcessor$getPersonByUsername
+ thrift.generated.PersonService$AsyncProcessor$getPersonByUsername$1
+ thrift.generated.PersonService$AsyncProcessor$savePerson
+ thrift.generated.PersonService$AsyncProcessor$savePerson$1
+ thrift.generated.PersonService$Client
+ thrift.generated.PersonService$Client$Factory
+ thrift.generated.PersonService$Iface
+ thrift.generated.PersonService$Processor
+ thrift.generated.PersonService$Processor$getPersonByUsername
+ thrift.generated.PersonService$Processor$savePerson
+ thrift.generated.PersonService$getPersonByUsername_args
+ thrift.generated.PersonService$getPersonByUsername_args$_Fields
+ thrift.generated.PersonService$getPersonByUsername_args$getPersonByUsername_argsStandardScheme
+ thrift.generated.PersonService$getPersonByUsername_args$getPersonByUsername_argsStandardSchemeFactory
+ thrift.generated.PersonService$getPersonByUsername_args$getPersonByUsername_argsTupleScheme
+ thrift.generated.PersonService$getPersonByUsername_args$getPersonByUsername_argsTupleSchemeFactory
+ thrift.generated.PersonService$getPersonByUsername_result
+ thrift.generated.PersonService$getPersonByUsername_result$_Fields
+ thrift.generated.PersonService$getPersonByUsername_result$getPersonByUsername_resultStandardScheme
+ thrift.generated.PersonService$getPersonByUsername_result$getPersonByUsername_resultStandardSchemeFactory
+ thrift.generated.PersonService$getPersonByUsername_result$getPersonByUsername_resultTupleScheme
+ thrift.generated.PersonService$getPersonByUsername_result$getPersonByUsername_resultTupleSchemeFactory
+ thrift.generated.PersonService$savePerson_args
+ thrift.generated.PersonService$savePerson_args$_Fields
+ thrift.generated.PersonService$savePerson_args$savePerson_argsStandardScheme
+ thrift.generated.PersonService$savePerson_args$savePerson_argsStandardSchemeFactory
+ thrift.generated.PersonService$savePerson_args$savePerson_argsTupleScheme
+ thrift.generated.PersonService$savePerson_args$savePerson_argsTupleSchemeFactory
+ thrift.generated.PersonService$savePerson_result
+ thrift.generated.PersonService$savePerson_result$_Fields
+ thrift.generated.PersonService$savePerson_result$savePerson_resultStandardScheme
+ thrift.generated.PersonService$savePerson_result$savePerson_resultStandardSchemeFactory
+ thrift.generated.PersonService$savePerson_result$savePerson_resultTupleScheme
+ thrift.generated.PersonService$savePerson_result$savePerson_resultTupleSchemeFactory
 com/shengsiyuan/netty/fourthexample/MyServer.java
  com.shengsiyuan.netty.fourthexample.MyServer
+com/shengsiyuan/netty/sixthexample/TestClientInitializer.java
+ com.shengsiyuan.netty.sixthexample.TestClientInitializer
+com/shengsiyuan/netty/fifthexample/MyServer.java
+ com.shengsiyuan.netty.fifthexample.MyServer
+com/shengsiyuan/netty/sixthexample/TestServerInitializer.java
+ com.shengsiyuan.netty.sixthexample.TestServerInitializer
+thrift/generated/Person.java
+ thrift.generated.Person
+ thrift.generated.Person$1
+ thrift.generated.Person$PersonStandardScheme
+ thrift.generated.Person$PersonStandardSchemeFactory
+ thrift.generated.Person$PersonTupleScheme
+ thrift.generated.Person$PersonTupleSchemeFactory
+ thrift.generated.Person$_Fields
+com/shengsiyuan/netty/thirdexample/MyChatClientHandler.java
+ com.shengsiyuan.netty.thirdexample.MyChatClientHandler
+com/shengsiyuan/netty/secondexample/MyClient.java
+ com.shengsiyuan.netty.secondexample.MyClient
+com/shengsiyuan/netty/sixthexample/TestClient.java
+ com.shengsiyuan.netty.sixthexample.TestClient
+com/shengsiyuan/netty/fourthexample/MyServerInitializer.java
+ com.shengsiyuan.netty.fourthexample.MyServerInitializer
+thrift/generated/DataException.java
+ thrift.generated.DataException
+ thrift.generated.DataException$1
+ thrift.generated.DataException$DataExceptionStandardScheme
+ thrift.generated.DataException$DataExceptionStandardSchemeFactory
+ thrift.generated.DataException$DataExceptionTupleScheme
+ thrift.generated.DataException$DataExceptionTupleSchemeFactory
+ thrift.generated.DataException$_Fields
+com/shengsiyuan/thrift/PersonServiceImpl.java
+ com.shengsiyuan.thrift.PersonServiceImpl
+com/shengsiyuan/netty/fifthexample/WebSocketChannelInitializer.java
+ com.shengsiyuan.netty.fifthexample.WebSocketChannelInitializer
+com/shengsiyuan/netty/secondexample/MyServer.java
+ com.shengsiyuan.netty.secondexample.MyServer
+com/shengsiyuan/netty/secondexample/MyServerHandler.java
+ com.shengsiyuan.netty.secondexample.MyServerHandler
+com/shengsiyuan/netty/sixthexample/TestServerHandler.java
+ com.shengsiyuan.netty.sixthexample.TestServerHandler
+com/shengsiyuan/netty/sixthexample/TestServer.java
+ com.shengsiyuan.netty.sixthexample.TestServer
+com/shengsiyuan/thrift/ThriftClient.java
+ com.shengsiyuan.thrift.ThriftClient
+com/shengsiyuan/netty/sixthexample/MyDataInfo.java
+ com.shengsiyuan.netty.sixthexample.MyDataInfo
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Cat
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Cat$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Cat$Builder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$CatOrBuilder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Dog
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Dog$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Dog$Builder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$DogOrBuilder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage$Builder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage$DataBodyCase
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage$DataType
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessage$DataType$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$MyMessageOrBuilder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Person
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Person$1
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$Person$Builder
+ com.shengsiyuan.netty.sixthexample.MyDataInfo$PersonOrBuilder
+com/shengsiyuan/netty/firstexample/TestHttpServerHandler.java
+ com.shengsiyuan.netty.firstexample.TestHttpServerHandler
